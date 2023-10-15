@@ -1,0 +1,12 @@
+@extends('layouts.app')
+@section('content')
+
+<div class="jumbotron p-5 mb-4">
+    <div class="container">
+        {{-- add photo homepage  --}}
+        <img src="{{ asset('img/homepage-portfolio-laravel.jpg')}}" alt=""> 
+
+    </div>
+</div>
+
+@endsection

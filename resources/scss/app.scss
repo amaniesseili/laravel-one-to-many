@@ -1,0 +1,25 @@
+@import '~bootstrap/scss/bootstrap';
+
+
+.rounded-image {
+  width: 200px; 
+  height:200px; 
+  border-radius: 50%; 
+  overflow: hidden; /* Nasconde eventuali parti dell'immagine che eccedono il cerchio */
+}
+
+.rounded-image img {
+  width: 100%; /* l'immagine copra completamente il contenitore circolare */
+  height: auto; 
+}
+
+.description-box{
+  background-color: lightgray;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
